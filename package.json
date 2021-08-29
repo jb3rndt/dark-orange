@@ -1,10 +1,19 @@
 {
     "name": "dark-orange",
     "displayName": "Dark Orange",
-    "description": "Dark Theme with orange accent.",
+    "description": "Dark theme with orange accent.",
     "version": "0.0.1",
+    "publisher": "jannisberndt",
     "engines": {
         "vscode": "^1.55.0"
+    },
+    "author": {
+        "name": "Jannis Berndt",
+        "email": "berndtjannis@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/jb3rndt/dark-orange.git",
+        "type": "git"
     },
     "categories": [
         "Themes"
@@ -14,7 +23,7 @@
             {
                 "label": "Dark Orange",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark-orange.json"
+                "path": "./themes/dark-orange-color-theme.json"
             }
         ]
     }
