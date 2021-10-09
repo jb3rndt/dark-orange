@@ -9,15 +9,27 @@
     },
     "author": {
         "name": "Jannis Berndt",
-        "email": "berndtjannis@gmail.com"
-    },
-    "repository": {
-        "url": "https://github.com/jb3rndt/dark-orange.git",
-        "type": "git"
+        "email": "mail@jannisberndt.de"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "dark",
+        "orange",
+        "black",
+        "accent",
+        "midnight"
+    ],
+    "icon": "images/icon.png",
+    "repository": {
+        "url": "https://github.com/jb3rndt/dark-orange.git",
+        "type": "git"
+    },
+    "bugs": {
+      "url": "https://github.com/jb3rndt/dark-orange.git/issues",
+      "email": "mail@jannisberndt.de"
+    },
     "contributes": {
         "themes": [
             {
@@ -26,5 +38,11 @@
                 "path": "./themes/dark-orange-color-theme.json"
             }
         ]
+    },
+    "homepage": "https://github.com/jb3rndt/dark-orange",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "galleryBanner": {
+      "color": "#24292e",
+      "theme": "dark"
     }
 }
