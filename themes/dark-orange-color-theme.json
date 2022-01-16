@@ -196,7 +196,9 @@
 	"semanticTokenColors": {
 		"variable.declaration": {
 			"bold": true
-		}
+		},
+		"variable.decorator": "#FF5370",
+		"method.decorator": "#FF5370",
 	},
 	"tokenColors": [
 		{
