@@ -2,7 +2,6 @@
   <img height=200 width=200 src="images/icon.png"/>
 </p>
 
-
 # Dark Orange
 
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jannisberndt.dark-orange.svg)
@@ -14,12 +13,15 @@ Dark theme with orange accent based on the [Github dark theme](https://github.co
 ## Screenshots
 
 ### Welcome Page
+
 ![Screenshot of welcome page](images/screenshot-welcome.png)
 
 ### Python Code
+
 ![Screenshot of python code](images/screenshot-python.png)
 
 ### C++ Code
+
 ![Screenshot of c++ code](images/screenshot-cpp.png)
 
 ## Acknowledgements
