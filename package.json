@@ -5,7 +5,7 @@
     "version": "0.1.2",
     "publisher": "jannisberndt",
     "engines": {
-        "vscode": "^1.55.0"
+        "vscode": "^1.63.0"
     },
     "author": {
         "name": "Jannis Berndt",
@@ -44,5 +44,12 @@
     "galleryBanner": {
         "color": "#24292e",
         "theme": "dark"
+    },
+    "devDependencies": {
+        "vsce": "^2.6.3"
+    },
+    "dependencies": {},
+    "scripts": {
+        "deploy": "vsce publish --yarn"
     }
 }
