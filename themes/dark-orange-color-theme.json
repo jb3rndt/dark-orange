@@ -95,7 +95,7 @@
 		"statusBar.noFolderBackground": "#1f2428",
 		"statusBar.debuggingBackground": "#931c06",
 		"statusBar.debuggingForeground": "#e1e4e8",
-		"statusBarItem.prominentBackground": "#282e34",
+		"statusBarItem.prominentBackground": "#ff7300",
 		"editorGroupHeader.tabsBackground": "#1f2428",
 		"editorGroupHeader.tabsBorder": "#1b1f23",
 		"editorGroup.border": "#1b1f23",
