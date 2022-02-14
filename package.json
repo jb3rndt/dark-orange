@@ -2,7 +2,7 @@
     "name": "dark-orange",
     "displayName": "Dark Orange",
     "description": "Dark theme with orange accent.",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "jannisberndt",
     "engines": {
         "vscode": "^1.63.0"
