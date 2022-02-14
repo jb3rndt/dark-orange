@@ -16,7 +16,7 @@
 		"menubar.selectionBackground": "#282e34",
 		"menubar.selectionForeground": "#ff7300",
 		"textLink.foreground": "#ff7300",
-		"textLink.activeForeground": "#a74b00",
+		"textLink.activeForeground": "#cf5d00",
 		"textBlockQuote.background": "#24292e",
 		"textBlockQuote.border": "#444d56",
 		"textCodeBlock.background": "#2f363d",
