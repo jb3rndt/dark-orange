@@ -36,6 +36,11 @@
                 "label": "Dark Orange",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-orange-color-theme.json"
+            },
+            {
+                "label": "Dark Orange Flat",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-orange-flat-color-theme.json"
             }
         ]
     },
