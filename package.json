@@ -1,8 +1,8 @@
 {
     "name": "dark-orange",
     "displayName": "Dark Orange",
-    "description": "Dark theme with orange accent.",
-    "version": "0.2.2",
+    "description": "Dark theme with various color accents.",
+    "version": "0.3.0",
     "publisher": "jannisberndt",
     "engines": {
         "vscode": "^1.63.0"
@@ -33,7 +33,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark Orange",
+                "label": "Dark Orange Default",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-orange-color-theme.json"
             },
