@@ -41,6 +41,21 @@
                 "label": "Dark Orange Flat",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark-orange-flat-color-theme.json"
+            },
+            {
+                "label": "Dark Yellow Flat",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-yellow-flat-color-theme.json"
+            },
+            {
+                "label": "Dark Purple Flat",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-purple-flat-color-theme.json"
+            },
+            {
+                "label": "Dark Lime Flat",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-lime-flat-color-theme.json"
             }
         ]
     },

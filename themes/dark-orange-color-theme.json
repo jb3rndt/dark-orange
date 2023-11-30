@@ -1,5 +1,7 @@
 {
 	// Orange: ff7300
+	// Background Light 24292e
+	// Background Darker 1f2428
 	"name": "Dark Orange",
 	"type": "dark",
 	"colors": {
