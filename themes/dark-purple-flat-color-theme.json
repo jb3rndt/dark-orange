@@ -5,7 +5,7 @@
   // Foreground: e1e4e8
   // Active Selection: 3a3f46
   // Inactive Selection: 33373e
-  "name": "Dark Yellow Flat",
+  "name": "Dark Purple Flat",
   "type": "dark",
   "colors": {
     "icon.foreground": "#9400D3",
@@ -30,7 +30,7 @@
     // Buttons
     "button.background": "#9400D3",
     "button.foreground": "#dcffe4",
-    "button.hoverBackground": "#ffa600",
+    "button.hoverBackground": "#9400D3d8",
     "button.secondaryBackground": "#444d56",
     "button.secondaryForeground": "#fff",
     "button.secondaryHoverBackground": "#586069",
@@ -73,11 +73,11 @@
     "list.hoverForeground": "#e1e4e8",
     "list.inactiveSelectionForeground": "#e1e4e8",
     "list.activeSelectionForeground": "#e1e4e8",
-    "list.hoverBackground": "#33373e",
+    "list.hoverBackground": "#3a3f46",
     "list.inactiveSelectionBackground": "#33373e",
-    "list.activeSelectionBackground": "#9400D3",
+    "list.activeSelectionBackground": "#9400D380",
     "list.inactiveFocusBackground": "#33373e",
-    "list.focusBackground": "#9400D3",
+    "list.focusBackground": "#9400D380",
     "tree.indentGuidesStroke": "#2f363d",
     // Notifications
     "notificationCenterHeader.foreground": "#959da5",
