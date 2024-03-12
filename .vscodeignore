@@ -4,3 +4,4 @@
 .github
 vsc-extension-quickstart.md
 examples/**
+node_modules/**
