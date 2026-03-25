@@ -38,14 +38,9 @@
         "path": "./themes/dark-orange-color-theme.json"
       },
       {
-        "label": "Dark Orange Flat",
+        "label": "Dark Lime Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-orange-flat-color-theme.json"
-      },
-      {
-        "label": "Dark Yellow Flat",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-yellow-flat-color-theme.json"
+        "path": "./themes/dark-lime-flat-color-theme.json"
       },
       {
         "label": "Dark Purple Flat",
@@ -53,9 +48,39 @@
         "path": "./themes/dark-purple-flat-color-theme.json"
       },
       {
-        "label": "Dark Lime Flat",
+        "label": "Dark Yellow Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-lime-flat-color-theme.json"
+        "path": "./themes/dark-yellow-flat-color-theme.json"
+      },
+      {
+        "label": "Dark Orange Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-orange-flat-color-theme.json"
+      },
+      {
+        "label": "Crimson Nights Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crimson-nights-flat-color-theme.json"
+      },
+      {
+        "label": "Sunburst Midnight Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sunburst-midnight-flat-color-theme.json"
+      },
+      {
+        "label": "Neon Mint Charcoal Gray Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-mint-charcoal-gray-flat-color-theme.json"
+      },
+      {
+        "label": "Burgundy Night Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/burgundy-night-flat-color-theme.json"
+      },
+      {
+        "label": "Charcoal Pale Ivory Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/charcoal-pale-ivory-flat-color-theme.json"
       }
     ]
   },
