@@ -8,21 +8,40 @@
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/jannisberndt.dark-orange.svg)
 ![Visual Studio Marketplace Rating Stars](https://img.shields.io/visual-studio-marketplace/stars/jannisberndt.dark-orange.svg)
 
-Dark theme with orange accent based on the [Github dark theme](https://github.com/primer/github-vscode-theme).
+Dark theme with different accents, mostly based on the [Github dark theme](https://github.com/primer/github-vscode-theme). Initially, the only variants had orange accents (hence the name), but more color combinations in a flat theme style were added. See below for a screenshot of each theme.
 
 ## Screenshots
 
-### Welcome Page
+### Dark Orange (Default)
 
-![Screenshot of welcome page](images/screenshot-welcome.png)
+![Dart Orange (Default) (JavaScript example)](images/dark-orange-default-javascript.png)
 
-### Python Code
+### Dark Lime Flat
+![Dark Lime Flat (JavaScript example)](images/dark-lime-flat-javascript.png)
 
-![Screenshot of python code](images/screenshot-python.png)
+### Dark Orange Flat
+![Dark Orange Flat (JavaScript example)](images/dark-orange-flat-javascript.png)
 
-### C++ Code
+### Dark Purple Flat
+![Dark Purple Flat (JavaScript example)](images/dark-purple-flat-javascript.png)
 
-![Screenshot of c++ code](images/screenshot-cpp.png)
+### Dark Yellow Flat
+![Dark Yellow Flat (JavaScript example)](images/dark-yellow-flat-javascript.png)
+
+### Burgundy Night Flat
+![Burgundy Night Flat (JavaScript example)](images/burgundy-night-flat-javascript.png)
+
+### Charcoal Pale Ivory Flat
+![Charcoal Pale Ivory Flat (JavaScript example)](images/charcoal-pale-ivory-flat-javascript.png)
+
+### Crimson Nights Flat
+![Crimson Nights Flat (JavaScript example)](images/crimson-nights-flat-javascript.png)
+
+### Neon Mint Charcoal Flat
+![Neon Mint Charcoal Flat (JavaScript example)](images/neon-mint-charcoal-flat-javascript.png)
+
+### Sunburst Midnight Flat
+![Sunburst Midnight Flat (JavaScript example)](images/sunburst-midnight-flat-javascript.png)
 
 ## Acknowledgements
 
