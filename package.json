@@ -2,7 +2,7 @@
   "name": "dark-orange",
   "displayName": "Dark Orange",
   "description": "Dark theme with various color accents.",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "publisher": "jannisberndt",
   "engines": {
     "vscode": "^1.63.0"
@@ -98,7 +98,7 @@
     "vsce": "^2.6.3"
   },
   "scripts": {
-    "deploy": "vsce publish",
+    "publish": "vsce publish",
     "gen": "ts-node src/main.ts"
   }
 }
