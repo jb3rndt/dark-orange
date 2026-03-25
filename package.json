@@ -91,12 +91,14 @@
     "theme": "dark"
   },
   "devDependencies": {
-    "vsce": "^2.6.3",
-    "json5": "^2.2.3"
+    "@types/node": "^25.5.0",
+    "json5": "^2.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2",
+    "vsce": "^2.6.3"
   },
-  "dependencies": {},
   "scripts": {
     "deploy": "vsce publish",
-    "gen": "node generate.js"
+    "gen": "ts-node src/main.ts"
   }
 }
