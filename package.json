@@ -81,6 +81,21 @@
         "label": "Charcoal Pale Ivory Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/charcoal-pale-ivory-flat-color-theme.json"
+      },
+      {
+        "label": "Gunmetal Icy Blue Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gunmetal-icy-blue-flat-color-theme.json"
+      },
+      {
+        "label": "Ink Void Neo Lime Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ink-void-neo-lime-flat-color-theme.json"
+      },
+      {
+        "label": "Midnight Blush Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-blush-flat-color-theme.json"
       }
     ]
   },

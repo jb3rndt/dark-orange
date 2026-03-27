@@ -5,3 +5,9 @@
 vsc-extension-quickstart.md
 examples/**
 node_modules/**
+src/**
+themes/template-flat-color-theme.json
+package-lock.json
+tsconfig.json
+vsc-extension-quickstart.md
+.git

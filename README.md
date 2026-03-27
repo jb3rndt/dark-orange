@@ -43,6 +43,15 @@ Dark theme with different accents, mostly based on the [Github dark theme](https
 ### Sunburst Midnight Flat
 ![Sunburst Midnight Flat (JavaScript example)](images/sunburst-midnight-flat-javascript.png)
 
+### Gunmetal Icy Blue Flat
+![Gunmetal Icy Blue Flat (JavaScript example)](images/gunmetal-icy-blue-flat-javascript.png)
+
+### Ink Void Neo Lime Flat
+![Ink Void Neo Lime Flat (JavaScript example)](images/ink-void-neo-lime-flat-javascript.png)
+
+### Midnight Blush Flat
+![Midnight Blush Flat (JavaScript example)](images/midnight-blush-flat-javascript.png)
+
 ## Acknowledgements
 
 - This theme is based on [Github dark theme](https://github.com/primer/github-vscode-theme)

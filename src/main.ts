@@ -84,6 +84,27 @@ const themes: {
       background: "#2A2529",
     },
   },
+  {
+    name: "Gunmetal Icy Blue Flat",
+    colors: {
+      accent: "#A4D8FF",
+      background: "#232729",
+    },
+  },
+  {
+    name: "Ink Void Neo Lime Flat",
+    colors: {
+      accent: "#F1FEC8",
+      background: "#23212C",
+    },
+  },
+  {
+    name: "Midnight Blush Flat",
+    colors: {
+      accent: "#F2DFD8",
+      background: "#211D2D",
+    },
+  },
 ];
 
 const placeholders: [keyof (typeof themes)[0]["colors"], string][] = [
