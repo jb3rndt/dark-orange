@@ -33,14 +33,34 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Orange Default",
+        "label": "Blush Midnight Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-orange-color-theme.json"
+        "path": "./themes/blush-midnight-flat-color-theme.json"
+      },
+      {
+        "label": "Burgundy Night Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/burgundy-night-flat-color-theme.json"
+      },
+      {
+        "label": "Crimson Nights Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crimson-nights-flat-color-theme.json"
       },
       {
         "label": "Dark Lime Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-lime-flat-color-theme.json"
+      },
+      {
+        "label": "Dark Orange Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-orange-color-theme.json"
+      },
+      {
+        "label": "Dark Orange Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-orange-flat-color-theme.json"
       },
       {
         "label": "Dark Purple Flat",
@@ -53,19 +73,14 @@
         "path": "./themes/dark-yellow-flat-color-theme.json"
       },
       {
-        "label": "Dark Orange Flat",
+        "label": "Icy Blue Gunmetal Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-orange-flat-color-theme.json"
+        "path": "./themes/icy-blue-gunmetal-flat-color-theme.json"
       },
       {
-        "label": "Crimson Nights Flat",
+        "label": "Neo Lime Ink Void Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/crimson-nights-flat-color-theme.json"
-      },
-      {
-        "label": "Sunburst Midnight Flat",
-        "uiTheme": "vs-dark",
-        "path": "./themes/sunburst-midnight-flat-color-theme.json"
+        "path": "./themes/neo-lime-ink-void-flat-color-theme.json"
       },
       {
         "label": "Neon Mint Charcoal Gray Flat",
@@ -73,29 +88,14 @@
         "path": "./themes/neon-mint-charcoal-gray-flat-color-theme.json"
       },
       {
-        "label": "Burgundy Night Flat",
+        "label": "Pale Ivory Charcoal Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/burgundy-night-flat-color-theme.json"
+        "path": "./themes/pale-ivory-charcoal-flat-color-theme.json"
       },
       {
-        "label": "Charcoal Pale Ivory Flat",
+        "label": "Sunburst Midnight Flat",
         "uiTheme": "vs-dark",
-        "path": "./themes/charcoal-pale-ivory-flat-color-theme.json"
-      },
-      {
-        "label": "Gunmetal Icy Blue Flat",
-        "uiTheme": "vs-dark",
-        "path": "./themes/gunmetal-icy-blue-flat-color-theme.json"
-      },
-      {
-        "label": "Ink Void Neo Lime Flat",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ink-void-neo-lime-flat-color-theme.json"
-      },
-      {
-        "label": "Midnight Blush Flat",
-        "uiTheme": "vs-dark",
-        "path": "./themes/midnight-blush-flat-color-theme.json"
+        "path": "./themes/sunburst-midnight-flat-color-theme.json"
       }
     ]
   },

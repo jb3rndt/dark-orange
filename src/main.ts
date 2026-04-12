@@ -7,7 +7,7 @@ import {
 } from "./color-utils";
 
 const template: { name: string; colors: Record<string, string> } = JSON5.parse(
-  fs.readFileSync("./themes/template-flat-color-theme.json", "utf8"),
+  fs.readFileSync("template-flat-color-theme.json", "utf8"),
 );
 const packageJson = JSON.parse(fs.readFileSync("./package.json", "utf8"));
 
@@ -78,28 +78,28 @@ const themes: {
     },
   },
   {
-    name: "Charcoal Pale Ivory Flat",
+    name: "Pale Ivory Charcoal Flat",
     colors: {
       accent: "#F3F0E7",
       background: "#2A2529",
     },
   },
   {
-    name: "Gunmetal Icy Blue Flat",
+    name: "Icy Blue Gunmetal Flat",
     colors: {
       accent: "#A4D8FF",
       background: "#232729",
     },
   },
   {
-    name: "Ink Void Neo Lime Flat",
+    name: "Neo Lime Ink Void Flat",
     colors: {
       accent: "#F1FEC8",
       background: "#23212C",
     },
   },
   {
-    name: "Midnight Blush Flat",
+    name: "Blush Midnight Flat",
     colors: {
       accent: "#F2DFD8",
       background: "#211D2D",
@@ -122,6 +122,12 @@ packageJson.contributes.themes = [
     path: "./themes/dark-orange-color-theme.json",
   },
 ];
+
+fs.readdirSync("./themes").forEach((file) => {
+  if (file !== "dark-orange-color-theme.json") {
+    fs.unlinkSync(`./themes/${file}`);
+  }
+});
 
 for (const theme of themes) {
   theme.colors.secondaryBackground =
@@ -161,5 +167,10 @@ for (const theme of themes) {
     path: `./themes/${themeFileName}`,
   });
 }
+
+packageJson.contributes.themes.sort(
+  (a: { label: string }, b: { label: string }) =>
+    a.label.localeCompare(b.label),
+);
 
 fs.writeFileSync("./package.json", JSON.stringify(packageJson, null, 2));
