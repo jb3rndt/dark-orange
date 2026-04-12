@@ -105,6 +105,62 @@ const themes: {
       background: "#211D2D",
     },
   },
+  {
+    name: "Electric Purple Deep Black Flat",
+    colors: {
+      accent: "#B23EFF",
+      background: "#1E1E1E",
+    },
+  },
+  {
+    name: "Lemon Glow Steel Gray Flat",
+    colors: {
+      accent: "#FEEF4C",
+      background: "#282D32",
+    },
+  },
+  {
+    name: "Peyton Frosted Black Flat",
+    colors: {
+      accent: "#1A7A4C",
+      background: "#101820",
+    },
+  },
+  {
+    name: "Aquamarine Carbon Flat",
+    colors: {
+      accent: "#216869",
+      background: "#1F2421",
+    },
+  },
+  {
+    name: "Butter Charcoal Flat",
+    colors: {
+      accent: "#FDF984",
+      background: "#202221",
+    },
+  },
+  {
+    name: "Mana Midnight Flat",
+    colors: {
+      accent: "#3869F4",
+      background: "#0D131A",
+    },
+  },
+  {
+    name: "Sandy Cove Midnight Flat",
+    colors: {
+      accent: "#CFB787",
+      background: "#0D131A",
+    },
+  },
+  {
+    name: "Persian Red Raisin Black Flat",
+    colors: {
+      accent: "#BB4430",
+      background: "#231F20",
+    },
+  },
 ];
 
 const placeholders: [keyof (typeof themes)[0]["colors"], string][] = [
@@ -128,6 +184,9 @@ fs.readdirSync("./themes").forEach((file) => {
     fs.unlinkSync(`./themes/${file}`);
   }
 });
+const readmeElements: string[] = [];
+
+themes.sort((a, b) => a.name.localeCompare(b.name));
 
 for (const theme of themes) {
   theme.colors.secondaryBackground =
@@ -166,11 +225,16 @@ for (const theme of themes) {
     uiTheme: "vs-dark",
     path: `./themes/${themeFileName}`,
   });
+
+  readmeElements.push(
+    `### ${theme.name}\n\n![${theme.name} (JavaScript example)](images/${theme.name.toLowerCase().replaceAll(" ", "-")}-javascript.png)\n`,
+  );
 }
 
-packageJson.contributes.themes.sort(
-  (a: { label: string }, b: { label: string }) =>
-    a.label.localeCompare(b.label),
-);
-
 fs.writeFileSync("./package.json", JSON.stringify(packageJson, null, 2));
+const readmeContent = fs.readFileSync("./README.md", "utf8");
+const updatedReadmeContent = readmeContent.replace(
+  /<!-- FLAT_THEME_LIST_START -->[\s\S]*<!-- FLAT_THEME_LIST_END -->/,
+  `<!-- FLAT_THEME_LIST_START -->\n\n${readmeElements.join("\n")}\n<!-- FLAT_THEME_LIST_END -->`,
+);
+fs.writeFileSync("./README.md", updatedReadmeContent);

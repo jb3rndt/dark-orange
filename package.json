@@ -33,6 +33,16 @@
   "contributes": {
     "themes": [
       {
+        "label": "Dark Orange Default",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-orange-color-theme.json"
+      },
+      {
+        "label": "Aquamarine Carbon Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aquamarine-carbon-flat-color-theme.json"
+      },
+      {
         "label": "Blush Midnight Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/blush-midnight-flat-color-theme.json"
@@ -43,6 +53,11 @@
         "path": "./themes/burgundy-night-flat-color-theme.json"
       },
       {
+        "label": "Butter Charcoal Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/butter-charcoal-flat-color-theme.json"
+      },
+      {
         "label": "Crimson Nights Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/crimson-nights-flat-color-theme.json"
@@ -51,11 +66,6 @@
         "label": "Dark Lime Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-lime-flat-color-theme.json"
-      },
-      {
-        "label": "Dark Orange Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-orange-color-theme.json"
       },
       {
         "label": "Dark Orange Flat",
@@ -73,9 +83,24 @@
         "path": "./themes/dark-yellow-flat-color-theme.json"
       },
       {
+        "label": "Electric Purple Deep Black Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electric-purple-deep-black-flat-color-theme.json"
+      },
+      {
         "label": "Icy Blue Gunmetal Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/icy-blue-gunmetal-flat-color-theme.json"
+      },
+      {
+        "label": "Lemon Glow Steel Gray Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lemon-glow-steel-gray-flat-color-theme.json"
+      },
+      {
+        "label": "Mana Midnight Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mana-midnight-flat-color-theme.json"
       },
       {
         "label": "Neo Lime Ink Void Flat",
@@ -91,6 +116,21 @@
         "label": "Pale Ivory Charcoal Flat",
         "uiTheme": "vs-dark",
         "path": "./themes/pale-ivory-charcoal-flat-color-theme.json"
+      },
+      {
+        "label": "Persian Red Raisin Black Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/persian-red-raisin-black-flat-color-theme.json"
+      },
+      {
+        "label": "Peyton Frosted Black Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peyton-frosted-black-flat-color-theme.json"
+      },
+      {
+        "label": "Sandy Cove Midnight Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sandy-cove-midnight-flat-color-theme.json"
       },
       {
         "label": "Sunburst Midnight Flat",

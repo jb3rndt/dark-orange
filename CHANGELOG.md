@@ -5,6 +5,28 @@ All notable changes to the "dark-orange" extension will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-04-12
+
+### Added
+
+- 8 new themes:
+  - Aquamarine Carbon Flat
+  - Butter Charcoal Flat
+  - Electric Purple Deep Black Flat
+  - Lemon Glow Steel Gray Flat
+  - Mana Midnight Flat
+  - Persian Red Raisin Black Flat
+  - Peyton Frosted Black Flat
+  - Sandy Cove Midnight Flat
+
+### Changed
+
+- Renamed the following themes:
+  - Midnight Blush Flat -> Blush Midnight Flat
+  - Gunmetal Icy Blue Flat -> Icy Blue Gunmetal Flat
+  - Ink Void Neo Lime Flat -> Neo Lime Ink Void Flat
+  - Charcoal Pale Ivory Flat -> Pale Ivory Charcoal Flat
+
 ## [1.2.0] - 2026-03-27
 
 ### Added
